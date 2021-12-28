@@ -1,0 +1,80 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202124;
+}
+h1{
+    padding: 20px;
+    color: white;
+}
+h2{
+    padding-top: 20px;
+    color: white;
+}
+input{
+    background-color: #202124;
+    border: 1px solid #3c4043;
+    border-radius: 2px 2px 0 0;
+    color: #fff;
+    font-size: 150%;
+    height: 40px;
+    padding: 1px 6px;
+    text-align: center;
+    width: 197px;
+}
+select{
+    border-radius: 0 0 2px 2px;
+    background-color: #303134;
+    color: #bdc1c6;
+    width: 211px;
+    height: 2rem;
+    margin-top: -1px;
+}
+select:hover{
+    background-color: black;
+}
+button{
+    margin-left: 10px;
+    border: 1px solid #3c4043;
+    border-radius:4px;
+    cursor:pointer;
+    padding:5px;
+    height: 2rem;
+    background-color: #303134;
+    color: #fff;
+    
+}
+.equal{
+    display: inline-block;
+    line-height: 44px;
+    width: 27px;
+    text-align: center;
+    font-size: 26px;
+    color: #787878;
+    padding-top: 10px;
+    vertical-align: top;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+#field, #field2, #field3{
+    margin-left: 5rem;
+    display: block;
+}
+.fields{
+    display: inline-block;
+    width: 211px;
+    padding-top: 10px;
+}
+.fields2{
+    display: inline-block;
+    width: 211px;
+    padding-top: 10px;
+}
+

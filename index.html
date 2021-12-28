@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Conversor de unidades</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/54/54529.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Conversores</h1>
+    <h2>Conversor de massa e volume</h2>
+    <div id="field">
+        <div class="fields">
+            <input id="textfield" type="text">
+            <select name="" id="selection">
+                <option value="kg">Quilograma(Kg)</option>
+                <option value="g">Grama(g)</option>
+                <option value="l">Litro(L)</option>
+                <option value="ml">Mililitro(ml)</option>
+            </select>
+        </div>
+        <div class="equal">=</div>
+        <div class="fields2">
+            <input id="textfield2" type="text" readonly>
+            <select name="" id="selection2">
+                <option value="kg">Quilograma(Kg)</option>
+                <option value="g">Grama(g)</option>
+                <option value="l">Litro(L)</option>
+                <option value="ml">Mililitro(ml)</option>
+            </select>
+        </div>
+        <button onclick="show()">Converter</button>
+    </div>
+    <h2>Conversor de comprimento</h2>
+    <div id="field2">
+        <div class="fields">
+            <input id="textfield3" type="text">
+            <select name="" id="selection3">
+                <option value="km">Quilômetro(Km)</option>
+                <option value="m">Metro(m)</option>
+                <option value="cm">Centímetro(cm)</option>
+                <option value="mm">Milímetro(mm)</option>
+            </select>
+        </div>
+        <div class="equal">=</div>
+        <div class="fields2">
+            <input id="textfield4" type="text" readonly>
+            <select name="" id="selection4">
+                <option value="km">Quilômetro(Km)</option>
+                <option value="m">Metro(m)</option>
+                <option value="cm">Centímetro(cm)</option>
+                <option value="mm">Milímetro(mm)</option>
+            </select>
+        </div>
+        <button onclick="show2()">Converter</button>
+    </div>
+    <h2>Conversor de temperatura</h2>
+    <div id="field3">
+        <div class="fields">
+            <input id="textfield5" type="text">
+            <select name="" id="selection5">
+                <option value="ce">Celsius(°C)</option>
+                <option value="fa">Fahrenheit(°F)</option>
+                <option value="ke">Kelvin(K)</option>
+            </select>
+        </div>
+        <div class="equal">=</div>
+        <div class="fields2">
+            <input id="textfield6" type="text" readonly>
+            <select name="" id="selection6">
+                <option value="ce">Celsius(°C)</option>
+                <option value="fa">Fahrenheit(°F)</option>
+                <option value="ke">Kelvin(K)</option>
+            </select>
+        </div>
+        <button onclick="show3()">Converter</button>
+</body>
+</html>
